@@ -28,6 +28,9 @@
             "dataset_name" : "buy",
             "id_column_name" : "id"
         },
+        "ground_truth" : {
+            "separator" : "|"
+        },            
         "workflow": "BlockingBasedWorkflow",
         "block_building": 
         {

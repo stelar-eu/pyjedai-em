@@ -84,110 +84,6 @@ def run(json_input):
         ###############################################################################
 
 
-
-        """ 
-        JSON ARCHITECTURE
-        
-        
-        {
-            "input": {
-                "dataset_1" : {
-                    "csv_path" : ,
-                    "separator" : ,
-                    "id_column_name" : ,
-
-                    (optional)
-                    "name" : ,
-                    "attributes" : 
-                    
-                },
-                (optional)
-                "dataset_2" : {
-                    "csv_path" : ,
-                    "separator" : ,
-                    "id_column_name" : ,
-                    
-                    (optional)
-                    "name" : ,
-                    "attributes" : 
-                }
-                (optional)
-                "ground_truth" : {
-                    "csv_path" : ,
-                    "separator" : ,
-                }                
-                
-            },
-            "parameters": {
-                "workflow": "BlockingBasedWorkflow" / "EmbeddingsNNWorkflow",
-                "block_building" : {
-                    "method": "StandardBlocking", 
-                    "params" : {},
-                    "attributes_1": ,
-                    attributes_2"
-                }
-                "block_filtering" : []
-                "comparison_cleaning": {}
-                "entity_matching": {}
-                "clustering": {}
-                                    
-                    
-                
-                
-            }
-            
-            
-            
-        }
-        
-        
-        
-        
-        """
-
-
-        """
-        Acquire tool specific parameters from json['parameters] which was given by the 
-        KLMS Data API during the creation of the Tool Execution Task.
-
-        An example of parameters for a tool that adds two numbers x,y could be:
-        {
-            "inputs": {
-                "any_name": [
-                    "XXXXXXXX-bucket/temp1.csv",
-                    "XXXXXXXX-bucket/temp2.csv"
-                ],
-                "temp_files": [
-                    "XXXXXXXX-bucket/intermediate.json"
-                ]
-                
-            },
-            "outputs": {
-                "correlations_file": "/path/to/write/the/file",
-                "log_file": "/path/to/write/the/file"
-            },
-            "parameters": {
-                "x": 5,
-                "y": 2,
-            },
-            "secrets": {
-                "api_key": "AKIASIOSFODNNEXAMPLE"
-            },
-            "minio": {
-                "endpoint_url": "minio.XXXXXX.gr",
-                "id": "XXXXXXXX",
-                "key": "XXXXXXXX",
-                "skey": "XXXXXXXX",
-            }
-
-        }
-
-        The parameters JSON field can be as large as the tool needs.
-
-        For our simple example in this main.py we would access x,y as:
-            x = json['parameters']['x']
-            y = json['parameters']['y']
-        """        
         
         input = json_input['input'] if 'input' in json_input else json_input['inputs']
         params = json_input['parameters']
@@ -275,7 +171,7 @@ def run(json_input):
                 'status': "success",
         }
 
-        json_output['output'] = outputs_dict
+        json_output['outputs'] = outputs_dict
         
         
         
