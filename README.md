@@ -2,6 +2,10 @@
 
 The following README will guide you through the whole process of Entity Matching using pyJedAI.
 
+>  &#x1F4A1; **Tip:** Find json examples <a href="https://github.com/stelar-eu/pyjedai-em/blob/main/docs/json_examples">here</a>.
+
+>  &#x1F4A1; **Tip:** If you want to learn more about pyJedAI read the docs <a href="https://pyjedai.readthedocs.io/en/latest/intro.html">here</a>.
+
 ## Input
 **For all key attributes in JSON, exactly one file path must be provided.**
 
@@ -314,7 +318,6 @@ Attributes of key: `ground_truth`
   </tr>
 </table>
 
->  &#x1F4A1; **Tip:** Find json examples <a href="https://github.com/stelar-eu/pyjedai-em/blob/main/docs/json_examples">here</a>.
 
 ```
 {
