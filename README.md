@@ -16,7 +16,7 @@ The code for **Prompting 7B LLMs for Entity Matching** is available <a href="htt
 
 The code for **AvenER** is available at <a href="https://github.com/alexZeakis/AvengER">here</a>.
 
-The code for the **Experimental Analysis of Pre-trained Embeddings** is available at <a href="https://github.com/erbench/erbench">here</a>.
+The code for the **Experimental Analysis of Pre-trained Embeddings** is available at <a href="https://github.com/alexZeakis/Embeddings4ER">here</a>.
 
 The code for **Progressive Entity Matching** is available at <a href="https://github.com/JacobMaciejewski/PER-Design-Space-Exploration">here</a>.
 
