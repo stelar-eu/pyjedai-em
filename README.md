@@ -14,6 +14,12 @@ The code for **SMBench** is available <a href="https://github.com/erbench/erbenc
 
 The code for **Prompting 7B LLMs for Entity Matching** is available <a href="https://github.com/giannisak/ER">here</a>.
 
+The code for **AvenER** is available at <a href="https://github.com/alexZeakis/AvengER">here</a>.
+
+The code for the **Experimental Analysis of Pre-trained Embeddings** is available at <a href="https://github.com/erbench/erbench">here</a>.
+
+The code for **Progressive Entity Matching** is available at <a href="https://github.com/JacobMaciejewski/PER-Design-Space-Exploration">here</a>.
+
 >  &#x1F4A1; **Tip:** Find json examples <a href="https://github.com/stelar-eu/pyjedai-em/blob/main/docs/json_examples">here</a>.
 
 >  &#x1F4A1; **Tip:** If you want to learn more about pyJedAI read the docs <a href="https://pyjedai.readthedocs.io/en/latest/intro.html">here</a>.
