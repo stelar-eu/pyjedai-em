@@ -4,6 +4,16 @@ The following README will guide you through the whole process of Entity Matching
 
 The code and experiments on **AutoER** are avalable <a href="https://github.com/AI-team-UoA/AutoER">here</a>.
 
+The code for **Disintegration** is avalable <a href="https://github.com/gpapadis/Disintegration">here</a>. 
+
+The code for **Generalized Supervised Meta-blocking** is avalable <a href="https://github.com/Gaglia88/sparker">here</a>. 
+
+The code for the **Evaluation of Supervised Entity Matching** is avalable <a href="https://github.com/gpapadis/DLMatchers">here</a>.
+
+The code for **SMBench** is available <a href="https://github.com/erbench/erbench">here</a>.  
+
+The code for **Prompting 7B LLMs for Entity Matching** is available <a href="https://github.com/giannisak/ER">here</a>.
+
 >  &#x1F4A1; **Tip:** Find json examples <a href="https://github.com/stelar-eu/pyjedai-em/blob/main/docs/json_examples">here</a>.
 
 >  &#x1F4A1; **Tip:** If you want to learn more about pyJedAI read the docs <a href="https://pyjedai.readthedocs.io/en/latest/intro.html">here</a>.
