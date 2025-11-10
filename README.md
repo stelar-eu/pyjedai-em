@@ -1,24 +1,22 @@
 # README PyJedAI - Entity Matching
 
+# List of works using pyJedAI
+
+The following repositories leverage pyJedAI in the context of the STELAR project: 
+
+1. The code and experiments on **AutoER** are avalable <a href="https://github.com/AI-team-UoA/AutoER">here</a>.
+2. The code for **Disintegration** is avalable <a href="https://github.com/gpapadis/Disintegration">here</a>.
+3. The code for **Generalized Supervised Meta-blocking** is avalable <a href="https://github.com/Gaglia88/sparker">here</a>.
+4. The code for the **Evaluation of Supervised Entity Matching** is avalable <a href="https://github.com/gpapadis/DLMatchers">here</a>.
+5. The code for **SMBench** is available <a href="https://github.com/erbench/erbench">here</a>.
+6. The code for **Prompting 7B LLMs for Entity Matching** is available <a href="https://github.com/giannisak/ER">here</a>.
+7. The code for **AvenER** is available at <a href="https://github.com/alexZeakis/AvengER">here</a>.
+8. The code for the **Experimental Analysis of Pre-trained Embeddings** is available at <a href="https://github.com/alexZeakis/Embeddings4ER">here</a>.
+9. The code for **Progressive Entity Matching** is available at <a href="https://github.com/JacobMaciejewski/PER-Design-Space-Exploration">here</a>.
+
+# Entity Matching Process
+
 The following README will guide you through the whole process of Entity Matching using pyJedAI.
-
-The code and experiments on **AutoER** are avalable <a href="https://github.com/AI-team-UoA/AutoER">here</a>.
-
-The code for **Disintegration** is avalable <a href="https://github.com/gpapadis/Disintegration">here</a>. 
-
-The code for **Generalized Supervised Meta-blocking** is avalable <a href="https://github.com/Gaglia88/sparker">here</a>. 
-
-The code for the **Evaluation of Supervised Entity Matching** is avalable <a href="https://github.com/gpapadis/DLMatchers">here</a>.
-
-The code for **SMBench** is available <a href="https://github.com/erbench/erbench">here</a>.  
-
-The code for **Prompting 7B LLMs for Entity Matching** is available <a href="https://github.com/giannisak/ER">here</a>.
-
-The code for **AvenER** is available at <a href="https://github.com/alexZeakis/AvengER">here</a>.
-
-The code for the **Experimental Analysis of Pre-trained Embeddings** is available at <a href="https://github.com/alexZeakis/Embeddings4ER">here</a>.
-
-The code for **Progressive Entity Matching** is available at <a href="https://github.com/JacobMaciejewski/PER-Design-Space-Exploration">here</a>.
 
 >  &#x1F4A1; **Tip:** Find json examples <a href="https://github.com/stelar-eu/pyjedai-em/blob/main/docs/json_examples">here</a>.
 
