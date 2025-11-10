@@ -2,7 +2,7 @@
 
 The following README will guide you through the whole process of Entity Matching using pyJedAI.
 
-The code and experiments on AutoER are avalable <a href="https://github.com/AI-team-UoA/AutoER">here</a>.
+The code and experiments on **AutoER** are avalable <a href="https://github.com/AI-team-UoA/AutoER">here</a>.
 
 >  &#x1F4A1; **Tip:** Find json examples <a href="https://github.com/stelar-eu/pyjedai-em/blob/main/docs/json_examples">here</a>.
 
